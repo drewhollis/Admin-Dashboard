@@ -1,60 +1,58 @@
-import React from "react";
-import "./User.css";
 import {
-  PermIdentity,
-  CakeOutlined,
+  CalendarToday,
+  LocationSearching,
   MailOutline,
-  Home,
-  PhoneAndroidOutlined,
+  PermIdentity,
+  PhoneAndroid,
   Publish,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
+import "./User.css";
 
-// form currently displays horizontally when df is applied to userUpdateForm class
-
-const User = () => {
+export default function User() {
   return (
     <div className="user">
       <div className="userTitleContainer">
         <h1 className="userTitle">Edit User</h1>
-        <button className="userAddButton">Create</button>
+        <Link to="/newUser">
+          <button className="userAddButton">Create</button>
+        </Link>
       </div>
       <div className="userContainer">
         <div className="userShow">
           <div className="userShowTop">
             <img
-              className="userShowImg"
-              alt=""
               src="https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1"
+              alt=""
+              className="userShowImg"
             />
             <div className="userShowTopTitle">
-              <span className="userShowUsername">Jon Snow</span>
-              <span className="userShowUserTitle">Developer</span>
+              <span className="userShowUsername">Anna Becker</span>
+              <span className="userShowUserTitle">Software Engineer</span>
             </div>
           </div>
           <div className="userShowBottom">
             <span className="userShowTitle">Account Details</span>
             <div className="userShowInfo">
               <PermIdentity className="userShowIcon" />
-              <span className="userShowInfoTitle">kingofthenorth</span>
+              <span className="userShowInfoTitle">annabeck99</span>
             </div>
             <div className="userShowInfo">
-              <CakeOutlined className="userShowIcon" />
-              <span className="userShowInfoTitle">283 AC</span>
+              <CalendarToday className="userShowIcon" />
+              <span className="userShowInfoTitle">10.12.1999</span>
             </div>
             <span className="userShowTitle">Contact Details</span>
             <div className="userShowInfo">
-              <PhoneAndroidOutlined className="userShowIcon" />
-              <span className="userShowInfoTitle">Raven</span>
+              <PhoneAndroid className="userShowIcon" />
+              <span className="userShowInfoTitle">+1 123 456 67</span>
             </div>
             <div className="userShowInfo">
               <MailOutline className="userShowIcon" />
-              <span className="userShowInfoTitle">
-                kingofthenorth94@gmail.com
-              </span>
+              <span className="userShowInfoTitle">annabeck99@gmail.com</span>
             </div>
             <div className="userShowInfo">
-              <Home className="userShowIcon" />
-              <span className="userShowInfoTitle">Winterfell</span>
+              <LocationSearching className="userShowIcon" />
+              <span className="userShowInfoTitle">New York | USA</span>
             </div>
           </div>
         </div>
@@ -66,47 +64,39 @@ const User = () => {
                 <label>Username</label>
                 <input
                   type="text"
-                  placeholder="kingofthenorth"
+                  placeholder="annabeck99"
                   className="userUpdateInput"
                 />
               </div>
-            </div>
-            <div className="userUpdateLeft">
               <div className="userUpdateItem">
                 <label>Full Name</label>
                 <input
                   type="text"
-                  placeholder="Jon Snow"
+                  placeholder="Anna Becker"
                   className="userUpdateInput"
                 />
               </div>
-            </div>
-            <div className="userUpdateLeft">
               <div className="userUpdateItem">
                 <label>Email</label>
                 <input
                   type="text"
-                  placeholder="kingofthenorth94@gmail.com"
+                  placeholder="annabeck99@gmail.com"
                   className="userUpdateInput"
                 />
               </div>
-            </div>
-            <div className="userUpdateLeft">
               <div className="userUpdateItem">
                 <label>Phone</label>
                 <input
                   type="text"
-                  placeholder="Raven"
+                  placeholder="+1 123 456 67"
                   className="userUpdateInput"
                 />
               </div>
-            </div>
-            <div className="userUpdateLeft">
               <div className="userUpdateItem">
                 <label>Address</label>
                 <input
                   type="text"
-                  placeholder="Winterfell"
+                  placeholder="New York | USA"
                   className="userUpdateInput"
                 />
               </div>
@@ -115,20 +105,19 @@ const User = () => {
               <div className="userUpdateUpload">
                 <img
                   className="userUpdateImg"
-                  alt=""
                   src="https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1"
+                  alt=""
                 />
                 <label htmlFor="file">
-                  <Publish />
+                  <Publish className="userUpdateIcon" />
                 </label>
                 <input type="file" id="file" style={{ display: "none" }} />
               </div>
+              <button className="userUpdateButton">Update</button>
             </div>
           </form>
         </div>
       </div>
     </div>
   );
-};
-
-export default User;
+}
