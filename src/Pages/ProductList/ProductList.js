@@ -21,7 +21,7 @@ const ProductList = () => {
       renderCell: (params) => {
         return (
           <div className="productListItem">
-            <img className="productListImage" src={params.row.ig} alt="" />
+            <img className="productListImage" src={params.row.img} alt="" />
             {params.row.name}
           </div>
         );

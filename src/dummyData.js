@@ -49,6 +49,21 @@ export const salesData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Jan",
+    Sales: 4000,
+  },
+  {
+    name: "Feb",
+    Sales: 3000,
+  },
+  {
+    name: "Mar",
+    Sales: 8000,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
@@ -62,7 +77,8 @@ export const userRows = [
   {
     id: 2,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -70,7 +86,8 @@ export const userRows = [
   {
     id: 3,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -78,7 +95,8 @@ export const userRows = [
   {
     id: 4,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -86,7 +104,8 @@ export const userRows = [
   {
     id: 5,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -94,7 +113,8 @@ export const userRows = [
   {
     id: 6,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -102,7 +122,8 @@ export const userRows = [
   {
     id: 7,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -110,7 +131,8 @@ export const userRows = [
   {
     id: 8,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -118,7 +140,8 @@ export const userRows = [
   {
     id: 9,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -126,7 +149,8 @@ export const userRows = [
   {
     id: 10,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -134,7 +158,8 @@ export const userRows = [
   {
     id: 11,
     userName: "Jon Snow",
-    avatar: "",
+    avatar:
+      "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
     email: "",
     status: "",
     transaction: "",
@@ -143,82 +168,82 @@ export const userRows = [
 export const productRows = [
   {
     id: 1,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 2,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 3,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 4,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 5,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 6,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 7,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 8,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 9,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
   {
     id: 10,
-    name: "Test Product",
-    img: "https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1",
-    stock: 250,
-    status: "Active",
-    price: "$5,000",
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
 ];
