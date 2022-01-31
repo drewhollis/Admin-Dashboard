@@ -2,8 +2,6 @@ import React from "react";
 import "./SideBar.css";
 import {
   LineStyle,
-  Equalizer,
-  Group,
   GroupOutlined,
   Add,
   PersonAdd,
