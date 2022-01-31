@@ -119,6 +119,10 @@
   align-items: center;
 }
 
+.productUpload > label {
+  cursor: pointer;
+}
+
 .productButton {
   border: none;
   padding: 5px;
